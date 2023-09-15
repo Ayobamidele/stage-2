@@ -15,4 +15,13 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 
+3. Get all users(if you dont have requests please use the command below to download the package before testing)
+```
+pip install requests
+```
+```
+	import requests
+
+	response = requests.get('https://stage-2-flax.vercel.app/api/user_id', headers=headers)
+```
   
